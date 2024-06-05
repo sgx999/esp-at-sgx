@@ -261,7 +261,7 @@ config AT_FS_COMMAND_SUPPORT
 
 config AT_DRIVER_COMMAND_SUPPORT
     bool "AT driver command support."
-    default "n"
+    default "y"
     depends on AT_ENABLE
 
 config AT_SIGNALING_COMMAND_SUPPORT
